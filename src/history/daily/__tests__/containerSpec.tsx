@@ -5,7 +5,7 @@ import * as React from 'react';
 import { SingleDatePicker } from 'react-dates';
 import { Progress } from 'reactstrap';
 
-const mockApi = jest.fn(() => Promise.resolve());
+const mockApi = jest.fn(() => Promise.resolve({}));
 jest.mock('../../../api', () => ({ retrieveHistoricalReadingForDate: mockApi }));
 
 import DailyHistoryContainer from '../container';
