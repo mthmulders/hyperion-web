@@ -1,7 +1,7 @@
 import { shallow } from 'enzyme';
 import * as React from 'react';
 
-const mockRetrieveRecentReadings = jest.fn(() => Promise.resolve());
+const mockRetrieveRecentReadings = jest.fn(() => Promise.resolve({}));
 jest.mock('../../api', () => ({ retrieveRecentReadings: mockRetrieveRecentReadings }));
 
 import RecentContainer from '../container';

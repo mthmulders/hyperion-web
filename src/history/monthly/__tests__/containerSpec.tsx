@@ -1,7 +1,7 @@
 import { shallow, ShallowWrapper } from 'enzyme';
 import * as React from 'react';
 
-const mockApi = jest.fn(() => Promise.resolve());
+const mockApi = jest.fn(() => Promise.resolve({}));
 jest.mock('../../../api', () => ({ retrieveHistoricalReadingsForMonth: mockApi }));
 import MonthYearSelector from '../../../components/monthYearSelector';
 
