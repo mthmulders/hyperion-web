@@ -32,6 +32,7 @@ const Promised = function<T, P extends InjectedProps<T>>(
     WrappedComponent: React.ComponentType<P>,
 ) {
     // Inspired by http://natpryce.com/articles/000814.html
+    // and https://medium.com/@jrwebdev/react-higher-order-component-patterns-in-typescript-42278f7590fb
     return class PromisedWrapper extends React.Component<Subtract<P, InjectedProps<T>> & PromisedProps<T>, PromisedState<T>> {
         constructor(props: Subtract<P, InjectedProps<T>> & PromisedProps<T>) {
             super(props);
