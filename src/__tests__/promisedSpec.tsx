@@ -21,7 +21,7 @@ describe('Promised(...)', () => {
         const promise = Promise.resolve('yay');
 
         // Act
-        const PromisedDummy = Promised<string>('data', Dummy);
+        const PromisedDummy = Promised(Dummy);
 
         // Assert
         shallow(<PromisedDummy promise={ promise } />);
@@ -33,7 +33,7 @@ describe('Promised(...)', () => {
             const promise = Promise.resolve('yay');
 
             // Act
-            const PromisedDummy = Promised<string>('data', Dummy);
+            const PromisedDummy = Promised(Dummy);
             const result = shallow(<PromisedDummy promise={ promise } />);
 
             // Assert (immediately!)
@@ -46,16 +46,18 @@ describe('Promised(...)', () => {
     describe('when the promise is resolved', () => {
         it('should show the wrapped component', (done) => {
             // Arrange
-            const promise = Promise.resolve('yay');
+            const value = 'yay';
+            const promise = Promise.resolve(value);
 
             // Act
-            const PromisedDummy = Promised<string>('data', Dummy);
+            const PromisedDummy = Promised(Dummy);
             const result = shallow(<PromisedDummy promise={ promise } />);
 
             // Assert
             delayed(() => {
                 result.update();
                 expect(result.find(Dummy).exists()).toBe(true);
+                expect(result.find(Dummy).props().data).toBe(value);
                 expect(result.find(Progress).exists()).toBe(false);
                 expect(result.find(Alert).exists()).toBe(false);
                 done();
@@ -68,7 +70,7 @@ describe('Promised(...)', () => {
             const promise = Promise.resolve('yay');
 
             // Act
-            const PromisedDummy = Promised<string>('data', Dummy);
+            const PromisedDummy = Promised(Dummy);
             const result = shallow(<PromisedDummy promise={ promise } />);
 
             // Assert
@@ -89,7 +91,7 @@ describe('Promised(...)', () => {
             const promise = Promise.reject(new Error(message));
 
             // Act
-            const PromisedDummy = Promised<string>('data', Dummy);
+            const PromisedDummy = Promised(Dummy);
             const result = shallow(<PromisedDummy promise={ promise } />);
 
             // Assert

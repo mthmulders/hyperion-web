@@ -10,9 +10,9 @@ import { retrieveUsageRecordsForMonth } from '../../api';
 import MonthYearSelector from '../../components/monthYearSelector';
 import { UsageRecord } from '../../model';
 import Promised from '../../promised';
-import View from './view';
+import View, { ViewProps } from './view';
 
-const PromisedMonthlyReadingView = Promised<UsageRecord[]>('data', View);
+const PromisedMonthlyReadingView = Promised<UsageRecord[], ViewProps>(View);
 
 interface State {
     promise?: Promise<UsageRecord[]>;

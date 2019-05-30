@@ -13,9 +13,9 @@ import { retrieveHistoricalReadingForDate } from '../../api';
 import { isFutureDate } from '../../dates';
 import { Reading } from '../../model';
 import Promised from '../../promised';
-import View from './view';
+import View, { ViewProps } from './view';
 
-const PromisedRecentReadingsView = Promised<Reading>('data', View);
+const PromisedRecentReadingsView = Promised<Reading, ViewProps>(View);
 
 interface State {
     focused: boolean;

@@ -5,23 +5,35 @@ import {
     Progress,
 } from 'reactstrap';
 
-interface PromisedState {
-    error?: Error;
-    loading: boolean;
-    value?: any;
+interface InjectedProps<T> {
+    data: T;
 }
 
-// Inspired by http://natpryce.com/articles/000814.html
+interface PromisedState<T> {
+    error?: Error;
+    loading: boolean;
+    value?: T;
+}
+
+interface PromisedProps<T> {
+    promise: Promise<T>;
+}
+
+// Distilled from https://github.com/piotrwitek/utility-types
+type SetDifference<A, B> = A extends B ? never : A;
+type SetComplement<A, A1 extends A> = SetDifference<A, A1>;
+type Subtract<T extends T1, T1 extends object> = Pick<
+  T,
+  SetComplement<keyof T, keyof T1>
+>;
 
 // tslint:disable-next-line:only-arrow-functions
-const Promised = function<T, ChildProps = {}>(propName: string, Wrapped: React.ComponentType<ChildProps>) {
-    interface WrapperProp {
-        promise: Promise<T>;
-    }
-    type PromisedProps = ChildProps & WrapperProp;
-
-    return class PromisedWrapper extends React.Component<PromisedProps, PromisedState> {
-        constructor(props: PromisedProps) {
+const Promised = function<T, P extends InjectedProps<T>>(
+    WrappedComponent: React.ComponentType<P>,
+) {
+    // Inspired by http://natpryce.com/articles/000814.html
+    return class PromisedWrapper extends React.Component<Subtract<P, InjectedProps<T>> & PromisedProps<T>, PromisedState<T>> {
+        constructor(props: Subtract<P, InjectedProps<T>> & PromisedProps<T>) {
             super(props);
             this.state = { loading: true };
         }
@@ -45,8 +57,8 @@ const Promised = function<T, ChildProps = {}>(propName: string, Wrapped: React.C
                     </React.Fragment>
                 );
             } else {
-                const childProps: any = { [propName]: value };
-                return <Wrapped { ...childProps } />;
+                const { ...childProps } = this.props;
+                return <WrappedComponent { ...childProps as unknown as P } data={ value } />;
             }
         }
 
@@ -54,7 +66,7 @@ const Promised = function<T, ChildProps = {}>(propName: string, Wrapped: React.C
             this.setState({ error, loading: false });
         }
 
-        private handleSuccess = (value: T) => {
+        private handleSuccess = (value: any) => {
             this.setState({ loading: false, value });
         }
     };

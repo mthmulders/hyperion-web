@@ -3,9 +3,9 @@ import * as React from 'react';
 import { retrieveApplicationInfo } from '../api';
 import { ApplicationInfo } from '../model';
 import Promised from '../promised';
-import View from './view';
+import View, { ViewProps } from './view';
 
-const PromisedAboutView = Promised<ApplicationInfo>('data', View);
+const PromisedAboutView = Promised<ApplicationInfo, ViewProps>(View);
 
 interface State {
     promise: Promise<ApplicationInfo>;

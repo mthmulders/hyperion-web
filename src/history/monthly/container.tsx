@@ -9,9 +9,9 @@ import { retrieveHistoricalReadingsForMonth as retrieveHistoricalReadings } from
 import MonthYearSelector from '../../components/monthYearSelector';
 import { Reading } from '../../model';
 import Promised from '../../promised';
-import View from './view';
+import View, { ViewProps } from './view';
 
-const PromisedMonthlyReadingView = Promised<Reading[]>('data', View);
+const PromisedMonthlyReadingView = Promised<Reading[], ViewProps>(View);
 
 interface State {
     promise?: Promise<Reading[]>;

@@ -6,7 +6,7 @@ import { RecentReading } from '../model';
 import Promised from '../promised';
 
 const View = asyncComponent(() => import('./view'));
-const PromisedRecentReadingsView = Promised<RecentReading[]>('data', View);
+const PromisedRecentReadingsView = Promised<RecentReading[], any>(View);
 
 interface State {
     promise: Promise<RecentReading[]>;
