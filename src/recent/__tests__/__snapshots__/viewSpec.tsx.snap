@@ -5,21 +5,21 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <RecentView
     data={
-      Array [
-        Object {
-          "elecCon": 0.265,
-          "elecConsLow": 2150.714,
-          "elecConsNormal": 2702.641,
-          "elecProd": 0,
-          "elecProdLow": 0,
-          "elecProdNormal": 0,
-          "gas": 3781.676,
-          "tariff": "0002",
-          "ts": "2018-01-05T15:40:47+01:00",
-        },
-      ]
+        Array [
+            Object {
+              "elecCon": 0.265,
+              "elecConsLow": 2150.714,
+              "elecConsNormal": 2702.641,
+              "elecProd": 0,
+              "elecProdLow": 0,
+              "elecProdNormal": 0,
+              "gas": 3781.676,
+              "tariff": "0002",
+              "ts": "2018-01-05T15:40:47+01:00",
+            },
+          ]
     }
-  />,
+/>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -46,27 +46,27 @@ ShallowWrapper {
           vertical={true}
           verticalFill={Array []}
           verticalPoints={Array []}
-        />,
+/>,
         <XAxis
           allowDataOverflow={false}
           allowDecimals={true}
           allowDuplicatedCategory={true}
           dataKey="label"
           domain={
-            Array [
-              0,
-              "auto",
-            ]
+                    Array [
+                              0,
+                              "auto",
+                            ]
           }
           height={30}
           hide={false}
           mirror={false}
           orientation="bottom"
           padding={
-            Object {
-              "left": 0,
-              "right": 0,
-            }
+                    Object {
+                              "left": 0,
+                              "right": 0,
+                            }
           }
           reversed={false}
           scale="auto"
@@ -74,16 +74,16 @@ ShallowWrapper {
           type="category"
           width={0}
           xAxisId={0}
-        />,
+/>,
         <YAxis
           allowDataOverflow={false}
           allowDecimals={true}
           allowDuplicatedCategory={true}
           domain={
-            Array [
-              0,
-              "auto",
-            ]
+                    Array [
+                              0,
+                              "auto",
+                            ]
           }
           height={0}
           hide={false}
@@ -91,10 +91,10 @@ ShallowWrapper {
           mirror={false}
           orientation="left"
           padding={
-            Object {
-              "bottom": 0,
-              "top": 0,
-            }
+                    Object {
+                              "bottom": 0,
+                              "top": 0,
+                            }
           }
           reversed={false}
           scale="auto"
@@ -103,17 +103,17 @@ ShallowWrapper {
           unit=" W"
           width={60}
           yAxisId={0}
-        />,
+/>,
         <Tooltip
           active={false}
           animationDuration={400}
           animationEasing="ease"
           contentStyle={Object {}}
           coordinate={
-            Object {
-              "x": 0,
-              "y": 0,
-            }
+                    Object {
+                              "x": 0,
+                              "y": 0,
+                            }
           }
           cursor={true}
           cursorStyle={Object {}}
@@ -125,21 +125,21 @@ ShallowWrapper {
           separator=" : "
           useTranslate3d={false}
           viewBox={
-            Object {
-              "height": 0,
-              "width": 0,
-              "x": 0,
-              "y": 0,
-            }
+                    Object {
+                              "height": 0,
+                              "width": 0,
+                              "x": 0,
+                              "y": 0,
+                            }
           }
           wrapperStyle={Object {}}
-        />,
+/>,
         <Legend
           align="center"
           iconSize={14}
           layout="horizontal"
           verticalAlign="bottom"
-        />,
+/>,
         <Line
           activeDot={true}
           animateNewValues={true}
@@ -162,7 +162,7 @@ ShallowWrapper {
           type="monotone"
           xAxisId={0}
           yAxisId={0}
-        />,
+/>,
       ],
       "data": Array [
         Object {
@@ -367,27 +367,27 @@ ShallowWrapper {
             vertical={true}
             verticalFill={Array []}
             verticalPoints={Array []}
-          />,
+/>,
           <XAxis
             allowDataOverflow={false}
             allowDecimals={true}
             allowDuplicatedCategory={true}
             dataKey="label"
             domain={
-              Array [
-                0,
-                "auto",
-              ]
+                        Array [
+                                    0,
+                                    "auto",
+                                  ]
             }
             height={30}
             hide={false}
             mirror={false}
             orientation="bottom"
             padding={
-              Object {
-                "left": 0,
-                "right": 0,
-              }
+                        Object {
+                                    "left": 0,
+                                    "right": 0,
+                                  }
             }
             reversed={false}
             scale="auto"
@@ -395,16 +395,16 @@ ShallowWrapper {
             type="category"
             width={0}
             xAxisId={0}
-          />,
+/>,
           <YAxis
             allowDataOverflow={false}
             allowDecimals={true}
             allowDuplicatedCategory={true}
             domain={
-              Array [
-                0,
-                "auto",
-              ]
+                        Array [
+                                    0,
+                                    "auto",
+                                  ]
             }
             height={0}
             hide={false}
@@ -412,10 +412,10 @@ ShallowWrapper {
             mirror={false}
             orientation="left"
             padding={
-              Object {
-                "bottom": 0,
-                "top": 0,
-              }
+                        Object {
+                                    "bottom": 0,
+                                    "top": 0,
+                                  }
             }
             reversed={false}
             scale="auto"
@@ -424,17 +424,17 @@ ShallowWrapper {
             unit=" W"
             width={60}
             yAxisId={0}
-          />,
+/>,
           <Tooltip
             active={false}
             animationDuration={400}
             animationEasing="ease"
             contentStyle={Object {}}
             coordinate={
-              Object {
-                "x": 0,
-                "y": 0,
-              }
+                        Object {
+                                    "x": 0,
+                                    "y": 0,
+                                  }
             }
             cursor={true}
             cursorStyle={Object {}}
@@ -446,21 +446,21 @@ ShallowWrapper {
             separator=" : "
             useTranslate3d={false}
             viewBox={
-              Object {
-                "height": 0,
-                "width": 0,
-                "x": 0,
-                "y": 0,
-              }
+                        Object {
+                                    "height": 0,
+                                    "width": 0,
+                                    "x": 0,
+                                    "y": 0,
+                                  }
             }
             wrapperStyle={Object {}}
-          />,
+/>,
           <Legend
             align="center"
             iconSize={14}
             layout="horizontal"
             verticalAlign="bottom"
-          />,
+/>,
           <Line
             activeDot={true}
             animateNewValues={true}
@@ -483,7 +483,7 @@ ShallowWrapper {
             type="monotone"
             xAxisId={0}
             yAxisId={0}
-          />,
+/>,
         ],
         "data": Array [
           Object {

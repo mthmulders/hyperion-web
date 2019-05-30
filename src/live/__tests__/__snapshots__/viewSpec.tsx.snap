@@ -5,15 +5,15 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <View
     data={
-      Object {
-        "elecCon": 0.265,
-        "elecProd": 0,
-        "gas": 3781.676,
-        "tariff": "0002",
-        "ts": "2018-01-05T15:40:47+01:00",
-      }
+        Object {
+            "elecCon": 0.265,
+            "elecProd": 0,
+            "gas": 3781.676,
+            "tariff": "0002",
+            "ts": "2018-01-05T15:40:47+01:00",
+          }
     }
-  />,
+/>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -31,56 +31,56 @@ ShallowWrapper {
       "borderless": true,
       "children": <tbody>
         <tr>
-          <th
-            scope="row"
-          >
-            Timestamp
-          </th>
-          <td>
-            Friday, January 5th 2018, 15:40:47
-          </td>
+                <th
+                        scope="row"
+                >
+                        Timestamp
+                </th>
+                <td>
+                        Friday, January 5th 2018, 15:40:47
+                </td>
         </tr>
         <tr>
-          <th
-            scope="row"
-          >
-            Current electricity tariff
-          </th>
-          <td>
-            Normal
-          </td>
+                <th
+                        scope="row"
+                >
+                        Current electricity tariff
+                </th>
+                <td>
+                        Normal
+                </td>
         </tr>
         <tr>
-          <th
-            scope="row"
-          >
-            Current electricity consumption
-          </th>
-          <td>
-            0.265 kWh
-          </td>
+                <th
+                        scope="row"
+                >
+                        Current electricity consumption
+                </th>
+                <td>
+                        0.265 kWh
+                </td>
         </tr>
         <tr>
-          <th
-            scope="row"
-          >
-            Current electricity production
-          </th>
-          <td>
-            0 kWh
-          </td>
+                <th
+                        scope="row"
+                >
+                        Current electricity production
+                </th>
+                <td>
+                        0 kWh
+                </td>
         </tr>
         <tr>
-          <th
-            scope="row"
-          >
-            Total gas consumption
-          </th>
-          <td>
-            3781.676 m3
-          </td>
+                <th
+                        scope="row"
+                >
+                        Total gas consumption
+                </th>
+                <td>
+                        3781.676 m3
+                </td>
         </tr>
-      </tbody>,
+</tbody>,
       "responsive": true,
       "responsiveTag": "div",
       "tag": "table",
@@ -94,54 +94,54 @@ ShallowWrapper {
         "children": Array [
           <tr>
             <th
-              scope="row"
+                        scope="row"
             >
-              Timestamp
+                        Timestamp
             </th>
             <td>
-              Friday, January 5th 2018, 15:40:47
+                        Friday, January 5th 2018, 15:40:47
             </td>
-          </tr>,
+</tr>,
           <tr>
             <th
-              scope="row"
+                        scope="row"
             >
-              Current electricity tariff
+                        Current electricity tariff
             </th>
             <td>
-              Normal
+                        Normal
             </td>
-          </tr>,
+</tr>,
           <tr>
             <th
-              scope="row"
+                        scope="row"
             >
-              Current electricity consumption
+                        Current electricity consumption
             </th>
             <td>
-              0.265 kWh
+                        0.265 kWh
             </td>
-          </tr>,
+</tr>,
           <tr>
             <th
-              scope="row"
+                        scope="row"
             >
-              Current electricity production
+                        Current electricity production
             </th>
             <td>
-              0 kWh
+                        0 kWh
             </td>
-          </tr>,
+</tr>,
           <tr>
             <th
-              scope="row"
+                        scope="row"
             >
-              Total gas consumption
+                        Total gas consumption
             </th>
             <td>
-              3781.676 m3
+                        3781.676 m3
             </td>
-          </tr>,
+</tr>,
         ],
       },
       "ref": null,
@@ -154,12 +154,12 @@ ShallowWrapper {
             "children": Array [
               <th
                 scope="row"
-              >
+>
                 Timestamp
-              </th>,
+</th>,
               <td>
                 Friday, January 5th 2018, 15:40:47
-              </td>,
+</td>,
             ],
           },
           "ref": null,
@@ -198,12 +198,12 @@ ShallowWrapper {
             "children": Array [
               <th
                 scope="row"
-              >
+>
                 Current electricity tariff
-              </th>,
+</th>,
               <td>
                 Normal
-              </td>,
+</td>,
             ],
           },
           "ref": null,
@@ -242,12 +242,12 @@ ShallowWrapper {
             "children": Array [
               <th
                 scope="row"
-              >
+>
                 Current electricity consumption
-              </th>,
+</th>,
               <td>
                 0.265 kWh
-              </td>,
+</td>,
             ],
           },
           "ref": null,
@@ -286,12 +286,12 @@ ShallowWrapper {
             "children": Array [
               <th
                 scope="row"
-              >
+>
                 Current electricity production
-              </th>,
+</th>,
               <td>
                 0 kWh
-              </td>,
+</td>,
             ],
           },
           "ref": null,
@@ -330,12 +330,12 @@ ShallowWrapper {
             "children": Array [
               <th
                 scope="row"
-              >
+>
                 Total gas consumption
-              </th>,
+</th>,
               <td>
                 3781.676 m3
-              </td>,
+</td>,
             ],
           },
           "ref": null,
@@ -380,56 +380,56 @@ ShallowWrapper {
         "borderless": true,
         "children": <tbody>
           <tr>
-            <th
-              scope="row"
-            >
-              Timestamp
-            </th>
-            <td>
-              Friday, January 5th 2018, 15:40:47
-            </td>
+                    <th
+                              scope="row"
+                    >
+                              Timestamp
+                    </th>
+                    <td>
+                              Friday, January 5th 2018, 15:40:47
+                    </td>
           </tr>
           <tr>
-            <th
-              scope="row"
-            >
-              Current electricity tariff
-            </th>
-            <td>
-              Normal
-            </td>
+                    <th
+                              scope="row"
+                    >
+                              Current electricity tariff
+                    </th>
+                    <td>
+                              Normal
+                    </td>
           </tr>
           <tr>
-            <th
-              scope="row"
-            >
-              Current electricity consumption
-            </th>
-            <td>
-              0.265 kWh
-            </td>
+                    <th
+                              scope="row"
+                    >
+                              Current electricity consumption
+                    </th>
+                    <td>
+                              0.265 kWh
+                    </td>
           </tr>
           <tr>
-            <th
-              scope="row"
-            >
-              Current electricity production
-            </th>
-            <td>
-              0 kWh
-            </td>
+                    <th
+                              scope="row"
+                    >
+                              Current electricity production
+                    </th>
+                    <td>
+                              0 kWh
+                    </td>
           </tr>
           <tr>
-            <th
-              scope="row"
-            >
-              Total gas consumption
-            </th>
-            <td>
-              3781.676 m3
-            </td>
+                    <th
+                              scope="row"
+                    >
+                              Total gas consumption
+                    </th>
+                    <td>
+                              3781.676 m3
+                    </td>
           </tr>
-        </tbody>,
+</tbody>,
         "responsive": true,
         "responsiveTag": "div",
         "tag": "table",
@@ -443,54 +443,54 @@ ShallowWrapper {
           "children": Array [
             <tr>
               <th
-                scope="row"
+                            scope="row"
               >
-                Timestamp
+                            Timestamp
               </th>
               <td>
-                Friday, January 5th 2018, 15:40:47
+                            Friday, January 5th 2018, 15:40:47
               </td>
-            </tr>,
+</tr>,
             <tr>
               <th
-                scope="row"
+                            scope="row"
               >
-                Current electricity tariff
+                            Current electricity tariff
               </th>
               <td>
-                Normal
+                            Normal
               </td>
-            </tr>,
+</tr>,
             <tr>
               <th
-                scope="row"
+                            scope="row"
               >
-                Current electricity consumption
+                            Current electricity consumption
               </th>
               <td>
-                0.265 kWh
+                            0.265 kWh
               </td>
-            </tr>,
+</tr>,
             <tr>
               <th
-                scope="row"
+                            scope="row"
               >
-                Current electricity production
+                            Current electricity production
               </th>
               <td>
-                0 kWh
+                            0 kWh
               </td>
-            </tr>,
+</tr>,
             <tr>
               <th
-                scope="row"
+                            scope="row"
               >
-                Total gas consumption
+                            Total gas consumption
               </th>
               <td>
-                3781.676 m3
+                            3781.676 m3
               </td>
-            </tr>,
+</tr>,
           ],
         },
         "ref": null,
@@ -503,12 +503,12 @@ ShallowWrapper {
               "children": Array [
                 <th
                   scope="row"
-                >
+>
                   Timestamp
-                </th>,
+</th>,
                 <td>
                   Friday, January 5th 2018, 15:40:47
-                </td>,
+</td>,
               ],
             },
             "ref": null,
@@ -547,12 +547,12 @@ ShallowWrapper {
               "children": Array [
                 <th
                   scope="row"
-                >
+>
                   Current electricity tariff
-                </th>,
+</th>,
                 <td>
                   Normal
-                </td>,
+</td>,
               ],
             },
             "ref": null,
@@ -591,12 +591,12 @@ ShallowWrapper {
               "children": Array [
                 <th
                   scope="row"
-                >
+>
                   Current electricity consumption
-                </th>,
+</th>,
                 <td>
                   0.265 kWh
-                </td>,
+</td>,
               ],
             },
             "ref": null,
@@ -635,12 +635,12 @@ ShallowWrapper {
               "children": Array [
                 <th
                   scope="row"
-                >
+>
                   Current electricity production
-                </th>,
+</th>,
                 <td>
                   0 kWh
-                </td>,
+</td>,
               ],
             },
             "ref": null,
@@ -679,12 +679,12 @@ ShallowWrapper {
               "children": Array [
                 <th
                   scope="row"
-                >
+>
                   Total gas consumption
-                </th>,
+</th>,
                 <td>
                   3781.676 m3
-                </td>,
+</td>,
               ],
             },
             "ref": null,

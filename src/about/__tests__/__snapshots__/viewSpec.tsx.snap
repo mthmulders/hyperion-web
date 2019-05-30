@@ -5,17 +5,17 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <View
     data={
-      Object {
-        "appVersion": "2.0.2",
-        "database": "PostgreSQL 9.3.4",
-        "freeMem": "11 MB",
-        "javaVersion": "1.8.0_151 (Oracle Corporation)",
-        "os": "Linux 4.1.19+ (32 bits)",
-        "scalaVersion": "2.12.3",
-        "totalMem": "32 MB",
-      }
+        Object {
+            "appVersion": "2.0.2",
+            "database": "PostgreSQL 9.3.4",
+            "freeMem": "11 MB",
+            "javaVersion": "1.8.0_151 (Oracle Corporation)",
+            "os": "Linux 4.1.19+ (32 bits)",
+            "scalaVersion": "2.12.3",
+            "totalMem": "32 MB",
+          }
     }
-  />,
+/>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -33,76 +33,76 @@ ShallowWrapper {
       "borderless": true,
       "children": <tbody>
         <tr>
-          <th
-            scope="row"
-          >
-            Application version
-          </th>
-          <td>
-            2.0.2
-          </td>
+                <th
+                        scope="row"
+                >
+                        Application version
+                </th>
+                <td>
+                        2.0.2
+                </td>
         </tr>
         <tr>
-          <th
-            scope="row"
-          >
-            Java runtime
-          </th>
-          <td>
-            1.8.0_151 (Oracle Corporation)
-          </td>
+                <th
+                        scope="row"
+                >
+                        Java runtime
+                </th>
+                <td>
+                        1.8.0_151 (Oracle Corporation)
+                </td>
         </tr>
         <tr>
-          <th
-            scope="row"
-          >
-            Scala version
-          </th>
-          <td>
-            2.12.3
-          </td>
+                <th
+                        scope="row"
+                >
+                        Scala version
+                </th>
+                <td>
+                        2.12.3
+                </td>
         </tr>
         <tr>
-          <th
-            scope="row"
-          >
-            Operating system
-          </th>
-          <td>
-            Linux 4.1.19+ (32 bits)
-          </td>
+                <th
+                        scope="row"
+                >
+                        Operating system
+                </th>
+                <td>
+                        Linux 4.1.19+ (32 bits)
+                </td>
         </tr>
         <tr>
-          <th
-            scope="row"
-          >
-            Database
-          </th>
-          <td>
-            PostgreSQL 9.3.4
-          </td>
+                <th
+                        scope="row"
+                >
+                        Database
+                </th>
+                <td>
+                        PostgreSQL 9.3.4
+                </td>
         </tr>
         <tr>
-          <th
-            scope="row"
-          >
-            Free memory
-          </th>
-          <td>
-            11 MB
-          </td>
+                <th
+                        scope="row"
+                >
+                        Free memory
+                </th>
+                <td>
+                        11 MB
+                </td>
         </tr>
         <tr>
-          <th
-            scope="row"
-          >
-            Total memory
-          </th>
-          <td>
-            32 MB
-          </td>
+                <th
+                        scope="row"
+                >
+                        Total memory
+                </th>
+                <td>
+                        32 MB
+                </td>
         </tr>
-      </tbody>,
+</tbody>,
       "responsive": true,
       "responsiveTag": "div",
       "tag": "table",
@@ -116,74 +116,74 @@ ShallowWrapper {
         "children": Array [
           <tr>
             <th
-              scope="row"
+                        scope="row"
             >
-              Application version
+                        Application version
             </th>
             <td>
-              2.0.2
+                        2.0.2
             </td>
-          </tr>,
+</tr>,
           <tr>
             <th
-              scope="row"
+                        scope="row"
             >
-              Java runtime
+                        Java runtime
             </th>
             <td>
-              1.8.0_151 (Oracle Corporation)
+                        1.8.0_151 (Oracle Corporation)
             </td>
-          </tr>,
+</tr>,
           <tr>
             <th
-              scope="row"
+                        scope="row"
             >
-              Scala version
+                        Scala version
             </th>
             <td>
-              2.12.3
+                        2.12.3
             </td>
-          </tr>,
+</tr>,
           <tr>
             <th
-              scope="row"
+                        scope="row"
             >
-              Operating system
+                        Operating system
             </th>
             <td>
-              Linux 4.1.19+ (32 bits)
+                        Linux 4.1.19+ (32 bits)
             </td>
-          </tr>,
+</tr>,
           <tr>
             <th
-              scope="row"
+                        scope="row"
             >
-              Database
+                        Database
             </th>
             <td>
-              PostgreSQL 9.3.4
+                        PostgreSQL 9.3.4
             </td>
-          </tr>,
+</tr>,
           <tr>
             <th
-              scope="row"
+                        scope="row"
             >
-              Free memory
+                        Free memory
             </th>
             <td>
-              11 MB
+                        11 MB
             </td>
-          </tr>,
+</tr>,
           <tr>
             <th
-              scope="row"
+                        scope="row"
             >
-              Total memory
+                        Total memory
             </th>
             <td>
-              32 MB
+                        32 MB
             </td>
-          </tr>,
+</tr>,
         ],
       },
       "ref": null,
@@ -196,12 +196,12 @@ ShallowWrapper {
             "children": Array [
               <th
                 scope="row"
-              >
+>
                 Application version
-              </th>,
+</th>,
               <td>
                 2.0.2
-              </td>,
+</td>,
             ],
           },
           "ref": null,
@@ -240,12 +240,12 @@ ShallowWrapper {
             "children": Array [
               <th
                 scope="row"
-              >
+>
                 Java runtime
-              </th>,
+</th>,
               <td>
                 1.8.0_151 (Oracle Corporation)
-              </td>,
+</td>,
             ],
           },
           "ref": null,
@@ -284,12 +284,12 @@ ShallowWrapper {
             "children": Array [
               <th
                 scope="row"
-              >
+>
                 Scala version
-              </th>,
+</th>,
               <td>
                 2.12.3
-              </td>,
+</td>,
             ],
           },
           "ref": null,
@@ -328,12 +328,12 @@ ShallowWrapper {
             "children": Array [
               <th
                 scope="row"
-              >
+>
                 Operating system
-              </th>,
+</th>,
               <td>
                 Linux 4.1.19+ (32 bits)
-              </td>,
+</td>,
             ],
           },
           "ref": null,
@@ -372,12 +372,12 @@ ShallowWrapper {
             "children": Array [
               <th
                 scope="row"
-              >
+>
                 Database
-              </th>,
+</th>,
               <td>
                 PostgreSQL 9.3.4
-              </td>,
+</td>,
             ],
           },
           "ref": null,
@@ -416,12 +416,12 @@ ShallowWrapper {
             "children": Array [
               <th
                 scope="row"
-              >
+>
                 Free memory
-              </th>,
+</th>,
               <td>
                 11 MB
-              </td>,
+</td>,
             ],
           },
           "ref": null,
@@ -460,12 +460,12 @@ ShallowWrapper {
             "children": Array [
               <th
                 scope="row"
-              >
+>
                 Total memory
-              </th>,
+</th>,
               <td>
                 32 MB
-              </td>,
+</td>,
             ],
           },
           "ref": null,
@@ -510,76 +510,76 @@ ShallowWrapper {
         "borderless": true,
         "children": <tbody>
           <tr>
-            <th
-              scope="row"
-            >
-              Application version
-            </th>
-            <td>
-              2.0.2
-            </td>
+                    <th
+                              scope="row"
+                    >
+                              Application version
+                    </th>
+                    <td>
+                              2.0.2
+                    </td>
           </tr>
           <tr>
-            <th
-              scope="row"
-            >
-              Java runtime
-            </th>
-            <td>
-              1.8.0_151 (Oracle Corporation)
-            </td>
+                    <th
+                              scope="row"
+                    >
+                              Java runtime
+                    </th>
+                    <td>
+                              1.8.0_151 (Oracle Corporation)
+                    </td>
           </tr>
           <tr>
-            <th
-              scope="row"
-            >
-              Scala version
-            </th>
-            <td>
-              2.12.3
-            </td>
+                    <th
+                              scope="row"
+                    >
+                              Scala version
+                    </th>
+                    <td>
+                              2.12.3
+                    </td>
           </tr>
           <tr>
-            <th
-              scope="row"
-            >
-              Operating system
-            </th>
-            <td>
-              Linux 4.1.19+ (32 bits)
-            </td>
+                    <th
+                              scope="row"
+                    >
+                              Operating system
+                    </th>
+                    <td>
+                              Linux 4.1.19+ (32 bits)
+                    </td>
           </tr>
           <tr>
-            <th
-              scope="row"
-            >
-              Database
-            </th>
-            <td>
-              PostgreSQL 9.3.4
-            </td>
+                    <th
+                              scope="row"
+                    >
+                              Database
+                    </th>
+                    <td>
+                              PostgreSQL 9.3.4
+                    </td>
           </tr>
           <tr>
-            <th
-              scope="row"
-            >
-              Free memory
-            </th>
-            <td>
-              11 MB
-            </td>
+                    <th
+                              scope="row"
+                    >
+                              Free memory
+                    </th>
+                    <td>
+                              11 MB
+                    </td>
           </tr>
           <tr>
-            <th
-              scope="row"
-            >
-              Total memory
-            </th>
-            <td>
-              32 MB
-            </td>
+                    <th
+                              scope="row"
+                    >
+                              Total memory
+                    </th>
+                    <td>
+                              32 MB
+                    </td>
           </tr>
-        </tbody>,
+</tbody>,
         "responsive": true,
         "responsiveTag": "div",
         "tag": "table",
@@ -593,74 +593,74 @@ ShallowWrapper {
           "children": Array [
             <tr>
               <th
-                scope="row"
+                            scope="row"
               >
-                Application version
+                            Application version
               </th>
               <td>
-                2.0.2
+                            2.0.2
               </td>
-            </tr>,
+</tr>,
             <tr>
               <th
-                scope="row"
+                            scope="row"
               >
-                Java runtime
+                            Java runtime
               </th>
               <td>
-                1.8.0_151 (Oracle Corporation)
+                            1.8.0_151 (Oracle Corporation)
               </td>
-            </tr>,
+</tr>,
             <tr>
               <th
-                scope="row"
+                            scope="row"
               >
-                Scala version
+                            Scala version
               </th>
               <td>
-                2.12.3
+                            2.12.3
               </td>
-            </tr>,
+</tr>,
             <tr>
               <th
-                scope="row"
+                            scope="row"
               >
-                Operating system
+                            Operating system
               </th>
               <td>
-                Linux 4.1.19+ (32 bits)
+                            Linux 4.1.19+ (32 bits)
               </td>
-            </tr>,
+</tr>,
             <tr>
               <th
-                scope="row"
+                            scope="row"
               >
-                Database
+                            Database
               </th>
               <td>
-                PostgreSQL 9.3.4
+                            PostgreSQL 9.3.4
               </td>
-            </tr>,
+</tr>,
             <tr>
               <th
-                scope="row"
+                            scope="row"
               >
-                Free memory
+                            Free memory
               </th>
               <td>
-                11 MB
+                            11 MB
               </td>
-            </tr>,
+</tr>,
             <tr>
               <th
-                scope="row"
+                            scope="row"
               >
-                Total memory
+                            Total memory
               </th>
               <td>
-                32 MB
+                            32 MB
               </td>
-            </tr>,
+</tr>,
           ],
         },
         "ref": null,
@@ -673,12 +673,12 @@ ShallowWrapper {
               "children": Array [
                 <th
                   scope="row"
-                >
+>
                   Application version
-                </th>,
+</th>,
                 <td>
                   2.0.2
-                </td>,
+</td>,
               ],
             },
             "ref": null,
@@ -717,12 +717,12 @@ ShallowWrapper {
               "children": Array [
                 <th
                   scope="row"
-                >
+>
                   Java runtime
-                </th>,
+</th>,
                 <td>
                   1.8.0_151 (Oracle Corporation)
-                </td>,
+</td>,
               ],
             },
             "ref": null,
@@ -761,12 +761,12 @@ ShallowWrapper {
               "children": Array [
                 <th
                   scope="row"
-                >
+>
                   Scala version
-                </th>,
+</th>,
                 <td>
                   2.12.3
-                </td>,
+</td>,
               ],
             },
             "ref": null,
@@ -805,12 +805,12 @@ ShallowWrapper {
               "children": Array [
                 <th
                   scope="row"
-                >
+>
                   Operating system
-                </th>,
+</th>,
                 <td>
                   Linux 4.1.19+ (32 bits)
-                </td>,
+</td>,
               ],
             },
             "ref": null,
@@ -849,12 +849,12 @@ ShallowWrapper {
               "children": Array [
                 <th
                   scope="row"
-                >
+>
                   Database
-                </th>,
+</th>,
                 <td>
                   PostgreSQL 9.3.4
-                </td>,
+</td>,
               ],
             },
             "ref": null,
@@ -893,12 +893,12 @@ ShallowWrapper {
               "children": Array [
                 <th
                   scope="row"
-                >
+>
                   Free memory
-                </th>,
+</th>,
                 <td>
                   11 MB
-                </td>,
+</td>,
               ],
             },
             "ref": null,
@@ -937,12 +937,12 @@ ShallowWrapper {
               "children": Array [
                 <th
                   scope="row"
-                >
+>
                   Total memory
-                </th>,
+</th>,
                 <td>
                   32 MB
-                </td>,
+</td>,
               ],
             },
             "ref": null,
