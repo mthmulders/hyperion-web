@@ -28,7 +28,7 @@
     "@types/react-router-dom": "4.3.3",
     "@types/reactstrap": "8.0.1",
     "@types/recharts": "1.1.16",
-    "enzyme": "3.9.0",
+    "enzyme": "3.10.0",
     "enzyme-adapter-react-16": "1.13.2",
     "fetch-mock": "7.3.3",
     "jest-enzyme": "7.0.2",
