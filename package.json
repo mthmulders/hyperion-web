@@ -30,7 +30,7 @@
     "@types/recharts": "1.1.20",
     "enzyme": "3.10.0",
     "enzyme-adapter-react-16": "1.14.0",
-    "fetch-mock": "7.3.6",
+    "fetch-mock": "7.3.7",
     "jest-enzyme": "7.0.2",
     "jest-junit": "6.4.0",
     "raf": "3.4.1",
