@@ -23,7 +23,7 @@ jobs:
       
       - run:
           name: Run tests
-          command: JEST_JUNIT_OUTPUT=test-reports/junit.xml npm run test:ci
+          command: JEST_JUNIT_OUTPUT_DIR=test-reports npm run test:ci
       
       - run:
           name: Perform mutation testing
