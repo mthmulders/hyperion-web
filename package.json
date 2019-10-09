@@ -34,7 +34,7 @@
     "@types/react-router-dom": "5.1.0",
     "@types/react-test-renderer": "16.9.0",
     "@types/reactstrap": "8.0.4",
-    "@types/recharts": "1.1.21",
+    "@types/recharts": "1.1.22",
     "enzyme": "3.10.0",
     "enzyme-adapter-react-16": "1.14.0",
     "fetch-mock": "7.5.1",
