@@ -36,7 +36,7 @@
     "@types/reactstrap": "8.0.5",
     "@types/recharts": "1.1.22",
     "enzyme": "3.10.0",
-    "enzyme-adapter-react-16": "1.15.0",
+    "enzyme-adapter-react-16": "1.15.1",
     "fetch-mock": "7.5.1",
     "jest-enzyme": "7.1.1",
     "jest-junit": "8.0.0",
