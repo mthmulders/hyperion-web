@@ -8,6 +8,7 @@ exports[`<Navigation /> should show menu bar 1`] = `
     className="container"
   >
     <button
+      aria-label="Toggle navigation"
       className="navbar-toggler"
       onClick={[Function]}
       type="button"
@@ -17,6 +18,7 @@ exports[`<Navigation /> should show menu bar 1`] = `
       />
     </button>
     <div
+      aria-expanded="false"
       className="collapse navbar-collapse"
       style={Object {}}
     >
@@ -57,6 +59,7 @@ exports[`<Navigation /> should show menu bar 1`] = `
           </a>
         </li>
         <li
+          a11y={true}
           className="dropdown nav-item"
           onKeyDown={[Function]}
         >
@@ -96,6 +99,7 @@ exports[`<Navigation /> should show menu bar 1`] = `
           </div>
         </li>
         <li
+          a11y={true}
           className="dropdown nav-item"
           onKeyDown={[Function]}
         >
