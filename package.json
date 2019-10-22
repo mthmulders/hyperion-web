@@ -13,7 +13,7 @@
     "react-dom": "16.10.2",
     "react-router-dom": "5.1.2",
     "reactstrap": "8.1.1",
-    "recharts": "1.8.3"
+    "recharts": "1.8.4"
   },
   "description": "Hyperion Web frontend",
   "devDependencies": {
