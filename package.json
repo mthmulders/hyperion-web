@@ -38,7 +38,7 @@
     "enzyme": "3.10.0",
     "enzyme-adapter-react-16": "1.15.1",
     "fetch-mock": "7.7.0",
-    "jest-enzyme": "7.1.1",
+    "jest-enzyme": "7.1.2",
     "jest-junit": "9.0.0",
     "raf": "3.4.1",
     "react-scripts": "3.2.0",
