@@ -2119,10 +2119,10 @@
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
   integrity sha512-ce5d3q03Ex0sy4R14722Rmt6MT07Ua+k4FwDfdcToYJcMKNtRVQvJ6JCAPdAmAnbRb6CsX6aYb9m96NGod9uTw==
 
-"@types/react-dates@17.1.5":
-  version "17.1.5"
-  resolved "https://registry.yarnpkg.com/@types/react-dates/-/react-dates-17.1.5.tgz#3b293c7334372f15f04beaac02df0041316be2fc"
-  integrity sha512-aLYYiAfZfsQR6IqBfegrQrTeNk0bLql5fwNjMwst9oRSeB7LIauf1QStfNHifa6fQA5fr4Ivr/YniGdedfaCxg==
+"@types/react-dates@17.1.6":
+  version "17.1.6"
+  resolved "https://registry.yarnpkg.com/@types/react-dates/-/react-dates-17.1.6.tgz#ffdee156a0bb4ae85cff9650533f1e8c9c8f2cbb"
+  integrity sha512-WzSaAuZK9QzP/qM7QQKyH9S9f+PVY1P877Os/8LkALXZWWZs/NfrfzubvYJsu2IaUYawtMINFnZbZOJdbOOULA==
   dependencies:
     "@types/react" "*"
     moment ">=2.17.1"
