@@ -66,6 +66,15 @@ exports[`<Navigation /> should show menu bar 1`] = `
             aria-expanded={false}
             aria-haspopup={true}
             className="dropdown-toggle nav-link"
+            context={
+              Object {
+                "direction": "down",
+                "disabled": undefined,
+                "inNavbar": true,
+                "isOpen": false,
+                "toggle": [Function],
+              }
+            }
             href="#"
             onClick={[Function]}
           >
@@ -74,11 +83,29 @@ exports[`<Navigation /> should show menu bar 1`] = `
           <div
             aria-hidden={true}
             className="navbar-light dropdown-menu"
+            context={
+              Object {
+                "direction": "down",
+                "disabled": undefined,
+                "inNavbar": true,
+                "isOpen": false,
+                "toggle": [Function],
+              }
+            }
             role="menu"
             tabIndex="-1"
           >
             <a
               className="dropdown-item"
+              context={
+                Object {
+                  "direction": "down",
+                  "disabled": undefined,
+                  "inNavbar": true,
+                  "isOpen": false,
+                  "toggle": [Function],
+                }
+              }
               href="/history/daily"
               onClick={[Function]}
               role="menuitem"
@@ -88,6 +115,15 @@ exports[`<Navigation /> should show menu bar 1`] = `
             </a>
             <a
               className="dropdown-item"
+              context={
+                Object {
+                  "direction": "down",
+                  "disabled": undefined,
+                  "inNavbar": true,
+                  "isOpen": false,
+                  "toggle": [Function],
+                }
+              }
               href="/history/monthly"
               onClick={[Function]}
               role="menuitem"
@@ -105,6 +141,15 @@ exports[`<Navigation /> should show menu bar 1`] = `
             aria-expanded={false}
             aria-haspopup={true}
             className="dropdown-toggle nav-link"
+            context={
+              Object {
+                "direction": "down",
+                "disabled": undefined,
+                "inNavbar": true,
+                "isOpen": false,
+                "toggle": [Function],
+              }
+            }
             href="#"
             onClick={[Function]}
           >
@@ -113,11 +158,29 @@ exports[`<Navigation /> should show menu bar 1`] = `
           <div
             aria-hidden={true}
             className="navbar-light dropdown-menu"
+            context={
+              Object {
+                "direction": "down",
+                "disabled": undefined,
+                "inNavbar": true,
+                "isOpen": false,
+                "toggle": [Function],
+              }
+            }
             role="menu"
             tabIndex="-1"
           >
             <a
               className="dropdown-item"
+              context={
+                Object {
+                  "direction": "down",
+                  "disabled": undefined,
+                  "inNavbar": true,
+                  "isOpen": false,
+                  "toggle": [Function],
+                }
+              }
               href="/usage/monthly"
               onClick={[Function]}
               role="menuitem"
