@@ -36,7 +36,7 @@
     "@types/recharts": "1.8.7",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.2",
-    "fetch-mock": "9.1.0",
+    "fetch-mock": "9.1.1",
     "jest-enzyme": "7.1.2",
     "jest-junit": "10.0.0",
     "node-fetch": "2.6.0",
