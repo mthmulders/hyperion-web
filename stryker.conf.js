@@ -1,3 +1,6 @@
+/**
+ * @type {import('@stryker-mutator/api/core').StrykerOptions}
+ */
 module.exports = function(config) {
   config.set({
     coverageAnalysis: 'off',
@@ -9,7 +12,7 @@ module.exports = function(config) {
     ],
     mutator: 'typescript',
     jest: {
-      projectType: 'react'
+      projectType: 'create-react-app'
     },
     reporters: ['html', 'clear-text', 'progress', 'dashboard'],
     testRunner: 'jest',
