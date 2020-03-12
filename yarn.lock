@@ -1900,17 +1900,10 @@
     typed-inject "~1.0.0"
     typed-rest-client "~1.2.0"
 
-"@stryker-mutator/html-reporter@1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/html-reporter/-/html-reporter-1.3.1.tgz#a83132f174b657df7a7dc24b2782a22c0c12ea09"
-  integrity sha512-g6GJ/DPkJKWz+yHqzNOaLmKAmYdCgBDk/8jRnjxbRAtu1esFfIg1+nwzzyKaAWRwZRW4EQVVZs1EUrE/ES2ClA==
-  dependencies:
-    "@stryker-mutator/api" "^1.3.1"
-    "@stryker-mutator/util" "^1.3.1"
-    file-url "~2.0.0"
-    mkdirp "~0.5.1"
-    mutation-testing-elements "^1.0.2"
-    rimraf "~2.6.1"
+"@stryker-mutator/html-reporter@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/html-reporter/-/html-reporter-3.0.0.tgz#c99f34c6ac7724b14bd94bf11cd77d437ccec046"
+  integrity sha512-HaGgKlM3jvb0abisaXaLgEmP7k9dllUNwLiZjr1kH9IcSP9UZVJmj2dtQJH1Ae+rad1ku8VClDro5v1os9C54A==
 
 "@stryker-mutator/jest-runner@1.3.1":
   version "1.3.1"
@@ -5700,11 +5693,6 @@ file-loader@4.3.0:
     loader-utils "^1.2.3"
     schema-utils "^2.5.0"
 
-file-url@~2.0.0:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/file-url/-/file-url-2.0.2.tgz#e951784d79095127d3713029ab063f40818ca2ae"
-  integrity sha1-6VF4TXkJUSfTcTApqwY/QIGMoq4=
-
 filesize@6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/filesize/-/filesize-6.0.1.tgz#f850b509909c7c86f7e450ea19006c31c2ed3d2f"
@@ -8635,11 +8623,6 @@ multicast-dns@^6.0.1:
   dependencies:
     dns-packet "^1.3.1"
     thunky "^1.0.2"
-
-mutation-testing-elements@^1.0.2:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/mutation-testing-elements/-/mutation-testing-elements-1.0.7.tgz#d89d22ee82521284845f597f0828bec4d73eb63f"
-  integrity sha512-yeF8xZoIYPFlRB98MUalimIam7FKwS5aC1+I0DSd9ibFdDntNRaBkIZOhNt5ujE5ernJIJN4XvZmGsYhTR03BQ==
 
 mutation-testing-metrics@^1.0.7:
   version "1.0.7"
