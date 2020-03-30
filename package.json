@@ -19,7 +19,7 @@
   "devDependencies": {
     "@stryker-mutator/core": "3.0.2",
     "@stryker-mutator/jest-runner": "3.0.2",
-    "@stryker-mutator/typescript": "3.0.2",
+    "@stryker-mutator/typescript": "3.1.0",
     "@types/classnames": "2.2.10",
     "@types/enzyme": "3.10.5",
     "@types/enzyme-adapter-react-16": "1.0.6",
