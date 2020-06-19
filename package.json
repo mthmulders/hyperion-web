@@ -7,7 +7,7 @@
   ],
   "dependencies": {
     "bootstrap": "4.5.0",
-    "moment": "2.26.0",
+    "moment": "2.27.0",
     "react": "16.13.1",
     "react-dates": "20.3.0",
     "react-dom": "16.13.1",
