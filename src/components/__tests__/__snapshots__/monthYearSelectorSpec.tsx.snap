@@ -97,6 +97,7 @@ exports[`<MonthYearSelector /> should look acceptable 1`] = `
       Year
     </label>
     <input
+      aria-invalid={false}
       className="is-valid form-control"
       id="year"
       onBlur={[Function]}
