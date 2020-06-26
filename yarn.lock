@@ -2331,19 +2331,13 @@
     "@types/react" "*"
     popper.js "^1.14.1"
 
-"@types/recharts-scale@*":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@types/recharts-scale/-/recharts-scale-1.0.0.tgz#348c9220d6d9062c44a9d585d686644a97f7e25d"
-  integrity sha512-HR/PrCcxYb2YHviTqH7CMdL1TUhUZLTUKzfrkMhxm1HTa5mg/QtP8XMiuSPz6dZ6wecazAOu8aYZ5DqkNlgHHQ==
-
-"@types/recharts@1.8.12":
-  version "1.8.12"
-  resolved "https://registry.yarnpkg.com/@types/recharts/-/recharts-1.8.12.tgz#871eb975e713cbeda0413e0d10ea36cc8b76f812"
-  integrity sha512-n1Zzf20+wutXWBDYYhQdM8GaBJxqJHqLsevllXmt48CCiGM55LrKQ6/0OAwE97vfOqsJ7mFWSc/bKsq0mAj6jA==
+"@types/recharts@1.8.13":
+  version "1.8.13"
+  resolved "https://registry.yarnpkg.com/@types/recharts/-/recharts-1.8.13.tgz#9a024836e0b8be8882a48facd773552ba24c3184"
+  integrity sha512-m6R7ts9WEhyudxb739QA9B9nL82h/VEYlp3SKQRZxcAEzPU479ZvLjB+VOoeQGJ383XuysdJVjgftpeLtqs4Dg==
   dependencies:
     "@types/d3-shape" "*"
     "@types/react" "*"
-    "@types/recharts-scale" "*"
 
 "@types/stack-utils@^1.0.1":
   version "1.0.1"
