@@ -32,6 +32,6 @@ export const formatTime = (input: Date | string) => {
     return sanitiseInput(input).format('HH:mm:ss');
 };
 
-export const isFutureDate = (input: Date) => {
-    return moment(input).isAfter(moment.now());
+export const isFutureDate = (input: moment.Moment) => {
+    return input.isAfter(moment.now());
 };
