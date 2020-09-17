@@ -70,21 +70,21 @@ describe('Date-related functions', () => {
         describe('when value is in the past', () => {
             it('should return false', () => {
                 const pastInput: Date = moment().subtract(1, 'minute').toDate();
-                expect(dates.isFutureDate(pastInput)).toBe(false);
+                expect(dates.isFutureDate(moment(pastInput))).toBe(false);
             });
         });
 
         describe('when value is in the future', () => {
             it('should return false', () => {
                 const futureInput: Date = moment().add(1, 'minute').toDate();
-                expect(dates.isFutureDate(futureInput)).toBe(true);
+                expect(dates.isFutureDate(moment(futureInput))).toBe(true);
             });
         });
 
         describe('when value is equal to today', () => {
             it('should return false', () => {
                 const today: Date = moment().toDate();
-                expect(dates.isFutureDate(today)).toBe(false);
+                expect(dates.isFutureDate(moment(today))).toBe(false);
             });
         });
     });
