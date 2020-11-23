@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 import { Form } from 'reactstrap';
 
 import MonthSelector from './monthSelector';

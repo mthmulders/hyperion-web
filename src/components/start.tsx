@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 const Start = () => (
     <div>
         <h1>Welcome to Υπερίων</h1>

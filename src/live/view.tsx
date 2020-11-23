@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 import { Table } from 'reactstrap';
 
 import { formatDateTimeFull } from '../dates';
