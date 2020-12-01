@@ -2344,14 +2344,6 @@
     "@types/prop-types" "*"
     csstype "^3.0.2"
 
-"@types/reactstrap@8.5.2":
-  version "8.5.2"
-  resolved "https://registry.yarnpkg.com/@types/reactstrap/-/reactstrap-8.5.2.tgz#298680dd74886b12a0e2026ece873ef988cd4635"
-  integrity sha512-rmY0YTIivt8nbF9imjqTenuA7QtRwMKT+foETEs96LQhYhsVUeoUCnZiuTipdTa7dRGuXYFMQD7W3XWP3U1WTA==
-  dependencies:
-    "@types/react" "*"
-    popper.js "^1.14.1"
-
 "@types/recharts@1.8.17":
   version "1.8.17"
   resolved "https://registry.yarnpkg.com/@types/recharts/-/recharts-1.8.17.tgz#93016aeef7209d545a213d1b71d8c1f6b3e96cff"
@@ -10136,7 +10128,7 @@ pnp-webpack-plugin@1.6.4:
   dependencies:
     ts-pnp "^1.1.6"
 
-popper.js@^1.14.1, popper.js@^1.14.4:
+popper.js@^1.14.4:
   version "1.14.4"
   resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.14.4.tgz#8eec1d8ff02a5a3a152dd43414a15c7b79fd69b6"
   integrity sha1-juwdj/AqWjoVLdQ0FKFce3n9abY=
