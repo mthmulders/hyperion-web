@@ -11,10 +11,9 @@ import {
     Navbar,
     NavbarToggler,
     NavItem,
+    NavLink,
     UncontrolledDropdown,
 } from 'reactstrap';
-
-import NavLink from './navlink';
 
 interface NavigationState {
     isOpen: boolean;
