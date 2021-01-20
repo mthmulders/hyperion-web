@@ -6,7 +6,7 @@
     "not op_mini all"
   ],
   "dependencies": {
-    "bootstrap": "4.5.3",
+    "bootstrap": "4.6.0",
     "moment": "2.29.1",
     "react": "16.14.0",
     "react-dates": "20.3.0",
