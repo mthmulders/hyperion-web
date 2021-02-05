@@ -24,7 +24,7 @@ jobs:
           node-version: 12.18.3
 
       - name: Set up cache for node_modules
-        uses: actions/cache@v2.1.3
+        uses: actions/cache@v2.1.4
         with:
           path: "**/node_modules"
           key: hyperion-web-${{ hashFiles('package.json') }}-${{ hashFiles('yarn.lock') }}
@@ -70,7 +70,7 @@ jobs:
           node-version: 12.18.3
 
       - name: Set up cache for node_modules
-        uses: actions/cache@v2.1.3
+        uses: actions/cache@v2.1.4
         with:
           path: "**/node_modules"
           key: hyperion-web-${{ hashFiles('package.json') }}-${{ hashFiles('yarn.lock') }}
