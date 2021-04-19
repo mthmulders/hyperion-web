@@ -2220,10 +2220,10 @@
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
   integrity sha512-ce5d3q03Ex0sy4R14722Rmt6MT07Ua+k4FwDfdcToYJcMKNtRVQvJ6JCAPdAmAnbRb6CsX6aYb9m96NGod9uTw==
 
-"@types/react-dates@21.8.1":
-  version "21.8.1"
-  resolved "https://registry.yarnpkg.com/@types/react-dates/-/react-dates-21.8.1.tgz#f90b30895e22d15f42c64be6bbafb1796b5f05f8"
-  integrity sha512-zgBf0SM6dcDPR29x3bCzSypK0c2+EKDkR4NNyBCwH2GyL/AgIvJ0bQ6n2z1s468SXS2QbzCMJtF831vG7iGkjg==
+"@types/react-dates@21.8.2":
+  version "21.8.2"
+  resolved "https://registry.yarnpkg.com/@types/react-dates/-/react-dates-21.8.2.tgz#6b65b8e2ea2559be2e3d25bd3ca910430579f6bd"
+  integrity sha512-0BtpLI+zg7GESgoUd/3aknk35nOKQYEfqkGjy9cNxM7utB2tE0zOvh4npY8FSB8BkEranJkpmsuogeyMFIU/hw==
   dependencies:
     "@types/react" "*"
     "@types/react-outside-click-handler" "*"
