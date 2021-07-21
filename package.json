@@ -7,7 +7,7 @@
   ],
   "dependencies": {
     "@babel/cli": "7.14.8",
-    "@babel/core": "7.14.6",
+    "@babel/core": "7.14.8",
     "@babel/preset-env": "7.14.8",
     "bootstrap": "4.6.0",
     "moment": "2.29.1",
