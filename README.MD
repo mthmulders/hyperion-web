@@ -1,3 +1,14 @@
+# Status
+I do no longer actively maintain this code base.
+I have archived it; this means you can still inspect it and check it out.
+Take care: the ideas on which I have initially built this project may now be outdated.
+
+The code in this repo is NOT production grade anymore.
+Its primary purpose has been learning React and Typescript concepts.
+I have been running it in production myself, but I had additional security measures in place back then.
+
+You can in no way hold me liable for damage caused directly or indirectly by using this code; see also the [license](#license).
+
 # Hyperion Web
 [![Circle CI](https://circleci.com/gh/mthmulders/hyperion-web/tree/master.svg?style=svg)](https://circleci.com/gh/mthmulders/hyperion-web/tree/master)
 [![BCH compliance](https://bettercodehub.com/edge/badge/mthmulders/hyperion-web?branch=master)](https://bettercodehub.com/results/mthmulders/hyperion-web)
